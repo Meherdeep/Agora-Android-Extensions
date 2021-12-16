@@ -24,6 +24,9 @@ allprojects {
         mavenCentral()
         gradlePluginPortal()
         maven { setUrl("https://jitpack.io") }
+        flatDir {
+            dirs("libs")
+        }
     }
 }
 
