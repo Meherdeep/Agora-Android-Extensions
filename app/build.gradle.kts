@@ -41,7 +41,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.0")
 
     implementation(project(":agorauikit_android"))
-    implementation(mapOf("name" to "VoiceFiltersAgoraExtension", "ext" to "aar"))
+    implementation(mapOf("name" to "agora-pinpoint-release", "ext" to "aar"))
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
