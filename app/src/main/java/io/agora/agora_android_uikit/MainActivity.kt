@@ -85,14 +85,14 @@ class MainActivity : AppCompatActivity(), IMediaExtensionObserver {
             SynervozVoiceFilterExtensionManager.EXTENSION_VENDOR_NAME,
             SynervozVoiceFilterExtensionManager.EXTENSION_AUDIO_FILTER_NAME,
             "apiSecret",
-            "<--Synervoz API Secret-->"
+            "<--YOUR API SECRET-->"
         )
 
         agView?.agkit?.setExtensionProperty(
             SynervozVoiceFilterExtensionManager.EXTENSION_VENDOR_NAME,
             SynervozVoiceFilterExtensionManager.EXTENSION_AUDIO_FILTER_NAME,
             "apiKey",
-            "<--Synervoz API Key-->"
+            "<--YOUR API KEY-->"
         )
 
         effectEnabled = !effectEnabled
